@@ -4,3 +4,6 @@
 /* ! layout */
 @import url(layout/header.css);
 
+/* ! pages */
+@import url(pages/home.css);
+

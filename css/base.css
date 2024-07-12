@@ -45,6 +45,10 @@ body {
     background: var(--bg);
 }
 
+section{
+    padding: 2rem 7%;
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -57,6 +61,27 @@ body {
 
 .btn:hover {
     letter-spacing: .2rem;
+}
+
+/* media queries */
+
+@media(max-width:991px){
+
+    html {
+        font-size: 55%;
+    }
+
+    section{
+        padding: 2rem;
+    }
+
+}
+
+@media(max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+
 }
 
 /* ! base css end */
