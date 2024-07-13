@@ -63,6 +63,19 @@ section{
     letter-spacing: .2rem;
 }
 
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
 /* media queries */
 
 @media(max-width:991px){
