@@ -3,6 +3,7 @@
 
 /* ! layout */
 @import url(layout/header.css);
+@import url(layout/footer.css);
 
 /* ! pages */
 @import url(pages/home.css);
@@ -11,4 +12,5 @@
 @import url(pages/product.css);
 @import url(pages/review.css);
 @import url(pages/contact.css);
+@import url(pages/blog.css);
 

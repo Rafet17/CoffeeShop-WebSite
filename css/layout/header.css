@@ -30,14 +30,16 @@ header .logo img {
     padding-bottom: .5rem;
 }
 
-.header .icons div {
+.header .icons div,
+.header .icons a {
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
 }
 
-.header .icons div:hover {
+.header .icons div:hover,
+.header .icons a:hover {
     color: var(--main-color);
 }
 
@@ -148,7 +150,7 @@ header .logo img {
 
 }
 
-@media(max-width:768px) {
+@media(max-width:804px) {
 
     #menu-btn {
         display: inline-block;
