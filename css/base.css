@@ -25,7 +25,7 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
-   scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
@@ -45,7 +45,7 @@ body {
     background: var(--bg);
 }
 
-section{
+section {
     padding: 2rem 7%;
 }
 
@@ -63,7 +63,7 @@ section{
     letter-spacing: .2rem;
 }
 
-.heading{
+.heading {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
@@ -71,20 +71,20 @@ section{
     font-size: 4rem;
 }
 
-.heading span{
+.heading span {
     color: var(--main-color);
     text-transform: uppercase;
 }
 
 /* media queries */
 
-@media(max-width:991px){
+@media(max-width:991px) {
 
     html {
         font-size: 55%;
     }
 
-    section{
+    section {
         padding: 2rem;
     }
 
