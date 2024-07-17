@@ -1,0 +1,115 @@
+.reservation {
+    background: url(../../img/breadcrumb.jpg) no-repeat;
+    min-height: calc(100vh - 4rem);
+    background-size: cover;
+    background-position: center;
+}
+
+.reservation .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.reservation .title .links {
+    display: flex;
+    gap: 2.5px;
+}
+
+.reservation .title h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.reservation .title a {
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.reservation .title span {
+    color: var(--main-color);
+    font-size: 1.7rem;
+}
+
+.reservation form {
+    padding: 5rem 2rem;
+    text-align: center;
+    border: var(--border);
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    background-color: var(--black);
+    opacity: 0.9;
+}
+
+.reservation form .form-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    background-color: var(--black);
+    gap: 1rem;
+
+}
+
+.reservation form .inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--black);
+    border: var(--border);
+    
+}
+
+.reservation form .inputBox span {
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.reservation form .inputBox input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+    position: relative;
+}
+
+.reservation form .inputBox input::placeholder{
+    color: #fff;
+}
+
+.reservation form .inputBox select{
+    background: transparent;
+    color: #fff;
+    font-size: 1.7rem;
+    margin-left: 2.5rem;
+    padding: 2rem 0;
+}
+
+.reservation form .inputBox select option{
+    background-color: var(--black);
+    position: absolute;
+    bottom: 0;
+}
+
+.input-field[type="date"]::-webkit-calendar-picker-indicator { color: #fff; }
+
+.input-field[type="date"] {
+    text-transform: uppercase;
+    padding-inline-end: 10px;
+  }
+
+  .input-field i{
+    color: #fff;
+    font-size: 1rem;
+  }
+
+@media(max-width:640px){
+    .reservation form .form-div{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+}

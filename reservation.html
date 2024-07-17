@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+    <div class="loader-bg">
+        <img class="loader" src="/img/Coffee Shop.gif" alt="">
+    </div>
+    <!-- ! header section start -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="/img/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#product">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <a class="fas fa-user" href="reservation.html"></a>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="/img/cart-item-1.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="/img/cart-item-2.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="/img/cart-item-3.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="/img/cart-item-4.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+
+    </header>
+    <!-- ! header section end -->
+
+
+    <!-- ! reservation section start -->
+
+    <section class="reservation">
+        <div class="title">
+            <h1>reservation</h1>
+            <div class="links">
+                <a href="index.html">home / </a> <span> reservation</span>
+            </div>
+        </div>
+        <form action="">
+            <div class="form-div">
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="inputBox">
+                    <span class="fa-solid fa-mobile"></span>
+                    <input type="number" placeholder="Enter your number">
+                </div>
+                <div class="inputBox">
+                    <span class="fa-solid fa-person"></span>
+                    <select name="person" class="input-field">
+                        <option value="1-person">1 Person</option>
+                        <option value="2-person">2 Person</option>
+                        <option value="3-person">3 Person</option>
+                        <option value="4-person">4 Person</option>
+                        <option value="5-person">5 Person</option>
+                        <option value="6-person">6 Person</option>
+                        <option value="7-person">7 Person</option>
+                      </select>
+                </div>
+                <div class="inputBox">
+                    <span class="fa-solid fa-calendar"></span>
+                    <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <i name="fa-solid fa-calendar" ></i>
+                </div>
+                <div class="inputBox">
+                    <span class="fa-solid fa-clock" ></span>
+                    <select name="person" class="input-field">
+                        <option value="08:00am">08 : 00 am</option>
+                        <option value="09:00am">09 : 00 am</option>
+                        <option value="010:00am">10 : 00 am</option>
+                        <option value="011:00am">11 : 00 am</option>
+                        <option value="012:00am">12 : 00 am</option>
+                        <option value="01:00pm">01 : 00 pm</option>
+                        <option value="02:00pm">02 : 00 pm</option>
+                        <option value="03:00pm">03 : 00 pm</option>
+                        <option value="04:00pm">04 : 00 pm</option>
+                        <option value="05:00pm">05 : 00 pm</option>
+                        <option value="06:00pm">06 : 00 pm</option>
+                        <option value="07:00pm">07 : 00 pm</option>
+                        <option value="08:00pm">08 : 00 pm</option>
+                        <option value="09:00pm">09 : 00 pm</option>
+                        <option value="10:00pm">10 : 00 pm</option>
+                      </select>
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="mail" placeholder="Enter your mail">
+                </div>
+            </div>
+            <input type="submit" value="contact now" class="btn btn-hover">
+        </form>
+    </section>
+
+    <!-- ! reservation section end -->
+
+
+
+
+    <!-- ! footer section start -->
+
+    <section class="footer">
+        <div class="share">
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-instagram"></a>
+            <a href="" class="fab fa-linkedin"></a>
+            <a href="" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">menu</a>
+            <a href="">products</a>
+            <a href="">review</a>
+            <a href="">contact</a>
+            <a href="">blogs</a>
+        </div>
+        <div class="credit">created by <span>Rafet Hasanov</span> | all rights reserved</div>
+    </section>
+
+    <!-- ! footer section end -->
+
+    <!-- js link -->
+    <script src="/js/main.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</body>
+
+</html>

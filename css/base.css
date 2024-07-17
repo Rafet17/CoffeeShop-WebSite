@@ -49,6 +49,24 @@ section {
     padding: 2rem 7%;
 }
 
+.loader-bg {
+    position: fixed;
+    z-index: 999999;
+    background: var(--bg);
+    width: 100%;
+    height: 100vh;
+}
+
+.loader-bg .loader{
+    position: absolute;
+    top: 12rem;
+    left: 45rem;
+    height: 50rem;
+    width: 50rem;
+}
+
+
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -57,10 +75,13 @@ section {
     color: #fff;
     background: var(--main-color);
     cursor: pointer;
+    border: .1rem solid var(--main-color)
 }
 
 .btn:hover {
-    letter-spacing: .2rem;
+    background: transparent;
+    color: var(--main-color);
+    border: .1rem solid var(--main-color);
 }
 
 .heading {
@@ -71,7 +92,7 @@ section {
     font-size: 4rem;
 }
 
-.box-container{
+.box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
