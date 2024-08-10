@@ -1,39 +1,161 @@
-
 /* ! menu section start */
 
-.menu .box-container .box{
+.menu .box-container .box {
     padding: 5rem;
     text-align: center;
     border: var(--border);
 }
 
-.menu .box-container .box img{
+.menu .box-container .box img {
     height: 10rem;
     border-radius: 100%;
 }
 
-.menu .box-container .box h3{
+.menu .box-container .box h3 {
     color: #fff;
     font-size: 2rem;
     padding: 1rem 0;
 }
 
-.menu .box-container .box .price{
+.menu .box-container .box .price {
     color: #fff;
     font-size: 2.5rem;
 }
 
-.menu .box-container .box .price span{
-   font-size: 1.5rem;
-   text-decoration: line-through;
+.menu .box-container .box .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
 }
 
-.menu .box-container .box:hover{
+.menu .box-container .box:hover {
     background: #fff;
 }
 
-.menu .box-container .box:hover > *{
+.menu .box-container .box:hover>* {
     color: var(--black);
 }
 
 /* ! menu section end */
+
+/* ! menu page section start */
+
+.menu-page {
+    margin-top: 10rem;
+}
+
+.menu-page .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-page .title .links {
+    display: flex;
+    gap: 2.5px;
+}
+
+.menu-page .title h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.menu-page .title a {
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.menu-page .title span {
+    color: var(--main-color);
+    font-size: 1.7rem;
+}
+
+.menu-page .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 3rem;
+}
+
+.menu-page .navbar .nav {
+    display: flex;
+    align-items: center;
+    color: var(--main-color);
+    font-size: 2.2rem;
+    gap: .7rem;
+    cursor: pointer;
+}
+
+.menu-page .navbar .nav.active{
+    font-weight: 600;
+}
+
+.menu-page .wrapper {
+
+    margin-top: 5rem;
+}
+
+
+.menu-page .wrapper .head-title {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.menu-page .wrapper .bottom-title {
+    color: #ccc;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.all-wrapper .content{
+    display: none;
+}
+
+.all-wrapper .content.active{
+    display: block;
+}
+
+.menu-page .box-container.food{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 50rem, 1fr));  
+}
+
+.menu-page .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    color: #fff;
+}
+
+.menu-page .box-container .box .box-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-page .box-container .box .box-detail .box-mini-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.menu-page .box-container .box-mini-detail span {
+    color: #ccc;
+    font-size: 1.5rem;
+}
+
+.menu-page .box-container .image img {
+    height: 5rem;
+    border-radius: 100%;
+}
+
+.menu-page .box-container .box {
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+}
+
+/* ! menu page section end */
